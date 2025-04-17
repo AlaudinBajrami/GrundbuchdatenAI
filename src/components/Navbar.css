@@ -1,0 +1,61 @@
+/* Navbar container */
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    background-color: white; /* Set navbar background to white */
+}
+
+/* Navbar inner container */
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 6px;
+}
+
+/* Navbar logo */
+.navbar-logo .logo {
+    text-decoration: none;
+    color: black; /* Set logo text color to black */
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.navbar h1 {
+    color: black;
+}
+
+/* Navbar links */
+.navbar-links {
+    display: flex;
+    justify-content: center;
+    color: black; /* Text color set to black */
+    gap: 1.75rem; /* Spacing between flex items */
+    list-style: none; /* Optional: Remove default list styling */
+    padding: 0; /* Optional: Remove default padding */
+    margin: 0; /* Optional */
+    flex-grow: 1;
+    text-align: center;
+}
+
+/* Navbar items */
+.navbar-links a {
+    text-decoration: none;
+    color: black; /* Font color set to black */
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px 10px;
+    transition: all 0.3s ease;
+    border-radius: 16px; /* Keep the rounded corners */
+}
+
+/* Hover effect */
+.navbar-links a:hover {
+    color: white; /* Font color changes to white */
+    background-color: black; /* Background color black on hover */
+    border: 2px solid black; /* Add black border */
+    border-radius: 16px; /* Maintain rounded corners */
+}

@@ -1,0 +1,156 @@
+
+.results-container {
+    display: flex;
+    margin-top: 60px;
+    padding: 20px;
+    gap: 30px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.pdf-preview {
+    flex: 1;
+    min-width: 600px;
+    max-width: 800px;
+    height: 80vh;
+    background-color: #000;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+
+.pdf-viewer {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.extracted-lines {
+    flex: 1;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 20px;
+    color: white;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    max-height: 70vh;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-width: 300px;
+}
+
+.extracted-lines h3 {
+    margin-bottom: 15px;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.line-item {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.line-item:last-child {
+    border-bottom: none;
+}
+
+.checkbox-label {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.save-button {
+    margin-top: 20px;
+    background: linear-gradient(135deg, #414040, #545454);
+    border: none;
+    border-radius: 10px;
+    padding: 10px 15px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 100%;
+}
+
+.save-button:hover {
+    background: #121c46;
+}
+
+.results-container {
+    display: flex;
+    margin-top: 60px;
+    padding: 20px;
+    gap: 30px;
+    justify-content: center;
+    align-items: flex-start;
+    height: calc(100vh - 80px); /* Voller Platz, abzüglich Navbar */
+}
+
+.pdf-preview {
+    flex: 6; /* 👈 jetzt 2/3 */
+    height: 100%;
+    background-color: #000;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pdf-preview canvas {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    width: auto;
+    display: block;
+}
+
+.extracted-lines {
+    flex: 0.4; /* 👈 jetzt 1/3 */
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 20px;
+    color: white;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    height: 100%;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+}
+
+
+.results-page {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    color: white;
+    gap: 20px;
+}
+
+.results-intro {
+    max-width: 900px;
+    margin: 100px auto 0 auto;
+    text-align: center;
+    padding: 20px 30px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+.results-intro h2 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.results-intro p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+

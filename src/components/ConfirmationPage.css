@@ -1,0 +1,105 @@
+.confirmation-container {
+    margin-top: 70px;
+    padding: 30px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.page-title {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.intro-text {
+    font-size: 1.1rem;
+    text-align: center;
+    margin-bottom: 30px;
+    line-height: 1.6;
+    max-width: 800px;
+}
+
+.summary-box {
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 10px;
+    padding: 15px 20px;
+    margin-bottom: 30px;
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+/* Hauptbereich mit Daten */
+.confirmed-lines {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 15px;
+    padding: 25px;
+    width: 100%;
+    max-width: 900px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+}
+
+.confirmed-lines h3 {
+    margin-bottom: 20px;
+    font-size: 1.4rem;
+    text-align: left;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding-bottom: 10px;
+}
+
+.confirmed-lines ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.confirmed-line-item {
+    padding: 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    line-height: 1.6;
+}
+
+.confirmed-line-item:last-child {
+    border-bottom: none;
+}
+
+.footer-note {
+    margin-top: 40px;
+    font-size: 0.95rem;
+    color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+    max-width: 600px;
+}
+
+.no-lines-message {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+
+.back-button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.back-button {
+    background: linear-gradient(135deg, #414040, #545454);
+    border: none;
+    border-radius: 10px;
+    padding: 12px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    max-width: 250px;
+}
+
+.back-button:hover {
+    background: #121c46;
+}

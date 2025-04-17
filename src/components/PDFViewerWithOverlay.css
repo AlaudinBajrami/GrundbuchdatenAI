@@ -1,0 +1,18 @@
+/* PDFViewerWithOverlay.css */
+
+.pdf-wrapper {
+    position: relative;
+    width: fit-content;
+}
+
+.pdf-canvas {
+    display: block;
+    border: none; /* No border around PDF */
+}
+
+.overlay-canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+}
